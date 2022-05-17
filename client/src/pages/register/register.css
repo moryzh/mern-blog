@@ -1,0 +1,27 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.register-title {
+  font-size: 1.5rem;
+}
+
+.register-input {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.register-submit {
+  width: 20rem;
+  margin-top: 1rem;
+}

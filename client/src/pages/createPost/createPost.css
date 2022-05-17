@@ -1,0 +1,32 @@
+.create-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  row-gap: 1rem;
+}
+
+.write-form-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.write-title {
+  font-size: 1.5rem;
+}
+
+.write-input {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.write-submit {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.file-button {
+  width: 20rem;
+  text-align: right;
+}

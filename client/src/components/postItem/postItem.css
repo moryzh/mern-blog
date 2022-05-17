@@ -1,0 +1,37 @@
+.post-item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* max-width: 20rem; */
+  align-items: center;
+}
+
+.post-title, .post-date, .post-cats, .post-text {
+  padding-top: 0.5rem;
+}
+
+.post-title {
+  font-style: italic;
+}
+
+.post-img {
+  object-fit: cover;
+  width: 20rem;
+  height: auto;
+  border-radius: 5%;
+  border: 0.1rem solid var(--green);
+}
+
+.post-cats {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.post-text {
+  display: -webkit-box;
+  max-width: 20rem;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}

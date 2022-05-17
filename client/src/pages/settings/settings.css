@@ -1,0 +1,35 @@
+.settings {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-profile-img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.settings-title {
+  font-size: 1.5rem;
+}
+
+.settings-form > label {
+  padding: 0.5rem 0rem;
+}
+
+.write-input {
+  border: none;
+}
+
+.settings-submit {
+  width: 20rem;
+  margin-top: 1rem;
+}
